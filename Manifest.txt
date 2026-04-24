@@ -1,0 +1,2 @@
+Main-class: Capacity
+Class-Path: ojdbc11.jar

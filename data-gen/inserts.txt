@@ -1,0 +1,259 @@
+--------------------------- USERS ------------------------------
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+INSERT INTO users (user_type) VALUES ('customer');
+
+INSERT INTO users (user_type) VALUES ('manager');
+INSERT INTO users (user_type) VALUES ('manager');
+INSERT INTO users (user_type) VALUES ('manager');
+INSERT INTO users (user_type) VALUES ('manager');
+INSERT INTO users (user_type) VALUES ('manager');
+INSERT INTO users (user_type) VALUES ('manager');
+INSERT INTO users (user_type) VALUES ('manager');
+INSERT INTO users (user_type) VALUES ('manager');
+INSERT INTO users (user_type) VALUES ('manager');
+INSERT INTO users (user_type) VALUES ('manager');
+INSERT INTO users (user_type) VALUES ('manager');
+INSERT INTO users (user_type) VALUES ('manager');
+INSERT INTO users (user_type) VALUES ('manager');
+INSERT INTO users (user_type) VALUES ('manager');
+INSERT INTO users (user_type) VALUES ('manager');
+
+
+------------------ CUSTOMERS ------------------
+
+-- Individuals (15)
+INSERT INTO customer (cust_id, cust_email) VALUES (1001, 'han.solo@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1002, 'leia.organa@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1003, 'luke.skywalker@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1004, 'chewbacca@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1005, 'lando.calrissian@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1006, 'obiwan.kenobi@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1007, 'anakin.skywalker@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1008, 'padme.amidala@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1009, 'ahsoka.tano@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1010, 'rey.nobody@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1011, 'finn.fn2187@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1012, 'poe.dameron@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1013, 'jyn.erso@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1014, 'cassian.andor@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1015, 'mace.windu@example.com');
+
+-- Business Customers (15)
+INSERT INTO customer (cust_id, cust_email) VALUES (1016, 'imperial.logistics@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1017, 'deathstar.operations@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1018, 'kessel.spiceco@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1019, 'jawatraders@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1020, 'canto.bightcasino@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1021, 'incom.corporation@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1022, 'sienar.fleet@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1023, 'mandal.miningguild@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1024, 'black.sun@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1025, 'pike.syndicate@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1026, 'hutt.cartel@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1027, 'bespin.gasworks@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1028, 'royal.naboo@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1029, 'kamino.cloners@example.com');
+INSERT INTO customer (cust_id, cust_email) VALUES (1030, 'geonosis.droidfoundry@example.com');
+
+
+------------------ INDIVIDUALS ------------------
+INSERT INTO individual (cust_id, i_name) VALUES (1001, 'Han Solo');
+INSERT INTO individual (cust_id, i_name) VALUES (1002, 'Leia Organa');
+INSERT INTO individual (cust_id, i_name) VALUES (1003, 'Luke Skywalker');
+INSERT INTO individual (cust_id, i_name) VALUES (1004, 'Chewbacca');
+INSERT INTO individual (cust_id, i_name) VALUES (1005, 'Lando Calrissian');
+INSERT INTO individual (cust_id, i_name) VALUES (1006, 'Obi-Wan Kenobi');
+INSERT INTO individual (cust_id, i_name) VALUES (1007, 'Anakin Skywalker');
+INSERT INTO individual (cust_id, i_name) VALUES (1008, 'Padmé Amidala');
+INSERT INTO individual (cust_id, i_name) VALUES (1009, 'Ahsoka Tano');
+INSERT INTO individual (cust_id, i_name) VALUES (1010, 'Rey');
+INSERT INTO individual (cust_id, i_name) VALUES (1011, 'Finn');
+INSERT INTO individual (cust_id, i_name) VALUES (1012, 'Poe Dameron');
+INSERT INTO individual (cust_id, i_name) VALUES (1013, 'Jyn Erso');
+INSERT INTO individual (cust_id, i_name) VALUES (1014, 'Cassian Andor');
+INSERT INTO individual (cust_id, i_name) VALUES (1015, 'Mace Windu');
+
+
+------------------ BUSINESSES ------------------
+INSERT INTO business (cust_id, b_name) VALUES (1016, 'Imperial Logistics');
+INSERT INTO business (cust_id, b_name) VALUES (1017, 'Death Star Operations');
+INSERT INTO business (cust_id, b_name) VALUES (1018, 'Kessel Spice Company');
+INSERT INTO business (cust_id, b_name) VALUES (1019, 'Jawa Traders');
+INSERT INTO business (cust_id, b_name) VALUES (1020, 'Canto Bight Casino');
+INSERT INTO business (cust_id, b_name) VALUES (1021, 'Incom Corporation');
+INSERT INTO business (cust_id, b_name) VALUES (1022, 'Sienar Fleet Systems');
+INSERT INTO business (cust_id, b_name) VALUES (1023, 'Mandalorian Mining Guild');
+INSERT INTO business (cust_id, b_name) VALUES (1024, 'Black Sun Syndicate');
+INSERT INTO business (cust_id, b_name) VALUES (1025, 'Pike Syndicate');
+INSERT INTO business (cust_id, b_name) VALUES (1026, 'Hutt Cartel');
+INSERT INTO business (cust_id, b_name) VALUES (1027, 'Bespin Gasworks');
+INSERT INTO business (cust_id, b_name) VALUES (1028, 'Royal Naboo Government');
+INSERT INTO business (cust_id, b_name) VALUES (1029, 'Kaminoan Cloning Facility');
+INSERT INTO business (cust_id, b_name) VALUES (1030, 'Geonosian Droid Foundry');
+
+
+------------------ MANAGERS ------------------
+INSERT INTO manager (m_id, m_name, m_email) VALUES (1031, 'Yoda', 'yoda@example.com');
+INSERT INTO manager (m_id, m_name, m_email) VALUES (1032, 'Darth Vader', 'darth.vader@example.com');
+INSERT INTO manager (m_id, m_name, m_email) VALUES (1033, 'Emperor Palpatine', 'palpatine@example.com');
+INSERT INTO manager (m_id, m_name, m_email) VALUES (1034, 'Darth Maul', 'maul@example.com');
+INSERT INTO manager (m_id, m_name, m_email) VALUES (1035, 'Count Dooku', 'dooku@example.com');
+INSERT INTO manager (m_id, m_name, m_email) VALUES (1036, 'Qui-Gon Jinn', 'quigon@example.com');
+INSERT INTO manager (m_id, m_name, m_email) VALUES (1037, 'Boba Fett', 'boba.fett@example.com');
+INSERT INTO manager (m_id, m_name, m_email) VALUES (1038, 'Jango Fett', 'jango.fett@example.com');
+INSERT INTO manager (m_id, m_name, m_email) VALUES (1039, 'General Grievous', 'general.grievous@example.com');
+INSERT INTO manager (m_id, m_name, m_email) VALUES (1040, 'Kylo Ren', 'kylo.ren@example.com');
+INSERT INTO manager (m_id, m_name, m_email) VALUES (1041, 'Darth Sidious', 'sheev.palpatine@example.com');
+INSERT INTO manager (m_id, m_name, m_email) VALUES (1042, 'General Hux', 'general.hux@example.com');
+INSERT INTO manager (m_id, m_name, m_email) VALUES (1043, 'Captain Rex', 'captain.rex@example.com');
+INSERT INTO manager (m_id, m_name, m_email) VALUES (1044, 'Admiral Ackbar', 'admiral.ackbar@example.com');
+INSERT INTO manager (m_id, m_name, m_email) VALUES (1045, 'Bail Organa', 'bail.organa@example.com');
+
+
+------------------ CREDIT ------------------
+INSERT INTO credit (card_num) VALUES ('123456789012');
+INSERT INTO credit (card_num) VALUES ('123456780000');
+INSERT INTO credit (card_num) VALUES ('123456781111');
+INSERT INTO credit (card_num) VALUES ('123456782222');
+INSERT INTO credit (card_num) VALUES ('123456783333');
+INSERT INTO credit (card_num) VALUES ('123456784444');
+INSERT INTO credit (card_num) VALUES ('123456785555');
+INSERT INTO credit (card_num) VALUES ('123456787777');
+INSERT INTO credit (card_num) VALUES ('123456788888');
+INSERT INTO credit (card_num) VALUES ('123456789999');
+INSERT INTO credit (card_num) VALUES ('123456781010');
+INSERT INTO credit (card_num) VALUES ('123456781001');
+INSERT INTO credit (card_num) VALUES ('123456782323');
+INSERT INTO credit (card_num) VALUES ('123456786767');
+INSERT INTO credit (card_num) VALUES ('123456789119');
+
+------------------ BANK ACCOUNTS ------------------
+INSERT INTO bank_account (bank_num, bank_name) VALUES ('100001', 'Imperial Bank');
+INSERT INTO bank_account (bank_num, bank_name) VALUES ('100002', 'Rebel Credit Union');
+INSERT INTO bank_account (bank_num, bank_name) VALUES ('100003', 'Coruscant National Bank');
+INSERT INTO bank_account (bank_num, bank_name) VALUES ('100004', 'Chase Bank');
+INSERT INTO bank_account (bank_num, bank_name) VALUES ('100005', 'Ally Bank');
+INSERT INTO bank_account (bank_num, bank_name) VALUES ('100006', 'Endor Financial');
+INSERT INTO bank_account (bank_num, bank_name) VALUES ('100007', 'Alderaan Trust');
+INSERT INTO bank_account (bank_num, bank_name) VALUES ('100008', 'Naboo Royal Bank');
+INSERT INTO bank_account (bank_num, bank_name) VALUES ('100009', 'Kessel Spice Bank');
+INSERT INTO bank_account (bank_num, bank_name) VALUES ('100010', 'Bespin Gasworks Bank');
+INSERT INTO bank_account (bank_num, bank_name) VALUES ('100011', 'Black Sun Bank');
+INSERT INTO bank_account (bank_num, bank_name) VALUES ('100012', 'Mandalorian Credit');
+INSERT INTO bank_account (bank_num, bank_name) VALUES ('100013', 'Hutt Bank');
+INSERT INTO bank_account (bank_num, bank_name) VALUES ('100014', 'Droid Bank');
+INSERT INTO bank_account (bank_num, bank_name) VALUES ('100015', 'Kamino Bank');
+
+------------------ INSTALLMENT PLANS ------------------
+
+INSERT INTO installment_plan (terms_and_cond, monthly, m_id) VALUES ('3-month plan, 0% interest', 3, 1031);
+INSERT INTO installment_plan (terms_and_cond, monthly, m_id) VALUES ('6-month plan, 0% interest', 6, 1045);
+INSERT INTO installment_plan (terms_and_cond, monthly, m_id) VALUES ('12-month plan, 0% interest', 12, 1037);
+INSERT INTO installment_plan (terms_and_cond, monthly, m_id) VALUES ('24-month plan, 0% interest', 24, 1039);
+INSERT INTO installment_plan (terms_and_cond, monthly, m_id) VALUES ('2-month split payment', 2, 1040);
+INSERT INTO installment_plan (terms_and_cond, monthly, m_id) VALUES ('Corporate 6-month plan', 6, 1031);
+INSERT INTO installment_plan (terms_and_cond, monthly, m_id) VALUES ('Student 12-month plan', 12, 1033);
+INSERT INTO installment_plan (terms_and_cond, monthly, m_id) VALUES ('Quarterly subscription plan', 4, 1042);
+
+------------------ ITEMS ------------------
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Lightsaber', 'Standard Jedi lightsaber', 1500.00, 'Jedi Supply Co.', 1031, 10);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Blaster Pistol', 'DL-44 heavy blaster', 800.00, 'BlasTech Arms', 1042, 15);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Stormtrooper Armor', 'Full white stormtrooper suit', 1200.00, 'Imperial Outfitters', 1043, 9);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('BB-8 Droid', 'Astromech droid', 2000.00, 'Droid Depot', 1032, 12);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Millennium Falcon Model', 'Collectible spaceship model', 350.00, 'Corellian Models', 1040, 11);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Thermal Detonator', 'Grenade-style explosive', 500.00, 'Sith Tech', 1037, 20);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Rebel Pilot Helmet', 'Helmet for X-Wing pilots', 300.00, 'Rebel Gear', 1039, 25);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Clone Trooper Blaster', 'DC-15A blaster rifle', 900.00, 'Clone Armory', 1038, 15);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Carbonite Chamber', 'Miniature display prop', 250.00, 'Bespin Collectibles', 1032, 2);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Holocron', 'Ancient Jedi knowledge crystal', 1800.00, 'Temple Artifacts', 1045, 7);
+
+-- Link items to product table
+INSERT INTO item (prod_id) VALUES (6001);
+INSERT INTO item (prod_id) VALUES (6002);
+INSERT INTO item (prod_id) VALUES (6003);
+INSERT INTO item (prod_id) VALUES (6004);
+INSERT INTO item (prod_id) VALUES (6005);
+INSERT INTO item (prod_id) VALUES (6006);
+INSERT INTO item (prod_id) VALUES (6007);
+INSERT INTO item (prod_id) VALUES (6008);
+INSERT INTO item (prod_id) VALUES (6009);
+INSERT INTO item (prod_id) VALUES (6010);
+
+
+------------------ SERVICES ------------------
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Jedi Training Session', 'Learn basic lightsaber skills', 5000.00, 'Jedi Temple', 1031, 1);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Starship Repair', 'Repair services for small ships', 1200.00, 'Rebel Mechanics', 1034, 1);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Smuggling Mission', 'Assist in covert transport', 3500.00, 'HoloNet Logistics', 1032, 1);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Astromech Droid Programming', 'Customize droid functions', 2000.00, 'Droid Depot', 1040, 1);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Lightsaber Maintenance', 'Tune and repair lightsabers', 400.00, 'Jedi Supply Co.', 1042, 1);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Clone Trooper Drill', 'Training session for clone soldiers', 1500.00, 'Clone Academy', 1039, 1);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Ship Navigation Lessons', 'Learn starship navigation', 800.00, 'Rebel Academy', 1045, 1);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('HoloNet Communications Setup', 'Setup secure comms', 600.00, 'Imperial Tech', 1038, 1);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Droid Combat Training', 'Teach battle skills to droids', 1800.00, 'Sith Tech', 1039, 1);
+INSERT INTO product (prod_name, description, price, vendor, m_id, stock) VALUES ('Starfighter Pilot Lessons', 'Train to fly starfighters', 2500.00, 'Rebel Flight Academy', 1045, 1);
+
+-- Link services to product table
+INSERT INTO service (prod_id, duration) VALUES (6011, 10);
+INSERT INTO service (prod_id, duration) VALUES (6012, 8);
+INSERT INTO service (prod_id, duration) VALUES (6013, 12);
+INSERT INTO service (prod_id, duration) VALUES (6014, 6);
+INSERT INTO service (prod_id, duration) VALUES (6015, 2);
+INSERT INTO service (prod_id, duration) VALUES (6016, 4);
+INSERT INTO service (prod_id, duration) VALUES (6017, 3);
+INSERT INTO service (prod_id, duration) VALUES (6018, 5);
+INSERT INTO service (prod_id, duration) VALUES (6019, 7);
+INSERT INTO service (prod_id, duration) VALUES (6020, 9);
+
+
+------------------ INDIVIDUAL PURCHASES ------------------
+INSERT INTO individual_purchase (purchase_date, quantity, item_id, cust_id, card_id, plan_id) VALUES (TO_DATE('2025-11-01','YYYY-MM-DD'), 1, 7001, 1001, 3001, 5001);
+INSERT INTO individual_purchase (purchase_date, quantity, item_id, cust_id, card_id, plan_id) VALUES (TO_DATE('2025-11-02','YYYY-MM-DD'), 2, 7002, 1002, 3002, NULL);
+INSERT INTO individual_purchase (purchase_date, quantity, item_id, cust_id, card_id, plan_id) VALUES (TO_DATE('2025-11-03','YYYY-MM-DD'), 1, 7003, 1003, 3003, 5003);
+INSERT INTO individual_purchase (purchase_date, quantity, item_id, cust_id, card_id, plan_id) VALUES (TO_DATE('2025-11-04','YYYY-MM-DD'), 3, 7004, 1004, 3004, 5004);
+INSERT INTO individual_purchase (purchase_date, quantity, item_id, cust_id, card_id, plan_id) VALUES (TO_DATE('2025-11-05','YYYY-MM-DD'), 1, 7005, 1005, 3005, NULL);
+INSERT INTO individual_purchase (purchase_date, quantity, item_id, cust_id, card_id, plan_id) VALUES (TO_DATE('2025-11-06','YYYY-MM-DD'), 2, 7006, 1006, 3006, NULL);
+INSERT INTO individual_purchase (purchase_date, quantity, item_id, cust_id, card_id, plan_id) VALUES (TO_DATE('2025-11-07','YYYY-MM-DD'), 1, 7007, 1007, 3007, NULL);
+INSERT INTO individual_purchase (purchase_date, quantity, item_id, cust_id, card_id, plan_id) VALUES (TO_DATE('2025-11-08','YYYY-MM-DD'), 1, 7008, 1008, 3008, 5008);
+INSERT INTO individual_purchase (purchase_date, quantity, item_id, cust_id, card_id, plan_id) VALUES (TO_DATE('2025-11-09','YYYY-MM-DD'), 2, 7009, 1009, 3009, 5005);
+INSERT INTO individual_purchase (purchase_date, quantity, item_id, cust_id, card_id, plan_id) VALUES (TO_DATE('2025-11-10','YYYY-MM-DD'), 1, 7010, 1010, 3010, 5007);
+
+------------------ BUSINESS PURCHASES ------------------
+INSERT INTO business_purchase (purchase_date, quantity, service_id, bank_id, cust_id) VALUES (TO_DATE('2025-11-01','YYYY-MM-DD'), 1, 8001, 4001, 1016);
+INSERT INTO business_purchase (purchase_date, quantity, service_id, bank_id, cust_id) VALUES (TO_DATE('2025-11-02','YYYY-MM-DD'), 2, 8002, 4002, 1017);
+INSERT INTO business_purchase (purchase_date, quantity, service_id, bank_id, cust_id) VALUES (TO_DATE('2025-11-03','YYYY-MM-DD'), 1, 8003, 4003, 1018);
+INSERT INTO business_purchase (purchase_date, quantity, service_id, bank_id, cust_id) VALUES (TO_DATE('2025-11-04','YYYY-MM-DD'), 3, 8004, 4004, 1019);
+INSERT INTO business_purchase (purchase_date, quantity, service_id, bank_id, cust_id) VALUES (TO_DATE('2025-11-05','YYYY-MM-DD'), 1, 8005, 4005, 1020);
+
+INSERT INTO business_purchase (purchase_date, quantity, service_id, bank_id, cust_id) VALUES (TO_DATE('2025-11-06','YYYY-MM-DD'), 2, 8006, 4006, 1021);
+INSERT INTO business_purchase (purchase_date, quantity, service_id, bank_id, cust_id) VALUES (TO_DATE('2025-11-07','YYYY-MM-DD'), 1, 8007, 4007, 1022);
+INSERT INTO business_purchase (purchase_date, quantity, service_id, bank_id, cust_id) VALUES (TO_DATE('2025-11-08','YYYY-MM-DD'), 1, 8008, 4008, 1023);
+INSERT INTO business_purchase (purchase_date, quantity, service_id, bank_id, cust_id) VALUES (TO_DATE('2025-11-09','YYYY-MM-DD'), 2, 8009, 4009, 1024);
+INSERT INTO business_purchase (purchase_date, quantity, service_id, bank_id, cust_id) VALUES (TO_DATE('2025-11-10','YYYY-MM-DD'), 1, 8010, 4014, 1025);
